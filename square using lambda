@@ -1,0 +1,4 @@
+num = [4,5,2,9]
+print("the given list of numbers that needs to be squared are:" , num)
+result = map(lambda x: x**2,num)
+print("the squared list is given below : \n" , list(result))
